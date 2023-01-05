@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Open+Sans:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Open Sans,sans-serif ;
+}
+
+
+/* header-strat */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-ber{
+    width: 121px;
+    height: 61px;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+        
+    
+}
+.btn-primary{
+color: #FD6E0A;
+
+}
+.btn-primary1{
+    background-color:#FD6E0A;
+    margin-right: 200px;
+    padding: 5px 10px;
+    border: 0;
+    border: 5px;
+    color:white;
+    border-radius: 5px;
+    height: 34px;
+
+}
+.list-items{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+.list-items li{
+    list-style-type: none;
+    margin-top: 75px;
+    
+}
+.container{
+    display: flex;
+    align-content: center;
+
+}
+.sideber-left{
+    margin-top: 300px;
+    margin-left: 200px;
+}
+.container img{
+    margin-right: 34px;
+}
+header{
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,bottom left;
+}
+.container h3{
+        font-weight: 600;
+    font-size: 45px;
+    line-height: 61p
+}
+
+.container h1{
+font-weight: 700;
+font-size: 85px;
+line-height: 116px;
+white-space: nowrap;
+margin-top: 60px;
+margin-bottom: 25px;
+}
+.container p{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.btn-primary2{
+    color: #FD6E0A;
+    border:1px solid #FD6E0A;
+    padding: 19px 24px;
+    margin-left:80px ;
+    border-radius: 8px;
+}
+.btn-primary3{
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    padding: 19px 24px;
+    
+}
+main{
+    max-width: 1160px;
+    margin: 0 200px;
+}
+.section{
+    text-align: center;
+    background: #fff8f3;
+border-radius: 10px;
+padding: 130px 150px;
+margin-top: 130px;
+
+}
+.about-me{
+    
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+
+    margin-bottom: 30px;
+    
+}
+.description{
+   text-align: justify; 
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+margin-bottom: 30px;
+color: #757575;
+
+}
+.side-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    
+    
+}
+.name{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    
+    color: #757575;
+}
+.call-name{
+    
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+white-space: nowrap;
+margin-bottom: 8px;
+
+
+}
+
